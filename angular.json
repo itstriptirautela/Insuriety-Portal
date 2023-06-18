@@ -1,9 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "fd41094a-7260-497f-b789-4cb291b675ac"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "INSURIETY-PORTAL": {
+    "PolicyAdminPortal": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/insuriety-portal",
+            "outputPath": "dist/policy-admin-portal",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "INSURIETY-PORTAL:build:production"
+              "browserTarget": "PolicyAdminPortal:build:production"
             },
             "development": {
-              "browserTarget": "INSURIETY-PORTAL:build:development"
+              "browserTarget": "PolicyAdminPortal:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "INSURIETY-PORTAL:build"
+            "browserTarget": "PolicyAdminPortal:build"
           }
         },
         "test": {
@@ -102,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "INSURIETY-PORTAL"
+  "defaultProject": "PolicyAdminPortal"
 }

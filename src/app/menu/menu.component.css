@@ -1,0 +1,30 @@
+
+    .heading{
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 2% 3% 3% 3%;
+        color: rgb(4, 16, 37);
+    }
+
+    #navbar{
+        padding: 4% 0% 3% 15%;
+    }
+
+    #link1{
+        padding-right: 25px;
+        font-size: 25px;
+        padding-left: 25px;
+    }
+
+    #link1:hover{
+        background-color: rgb(16, 221, 221);
+    }
+    .container{
+    
+        height: 60em;background-size: cover;width: auto;
+       
+         background-color: rgb(146, 126, 163); 
+        background-position: 50% 50%;
+       
+    }
+    

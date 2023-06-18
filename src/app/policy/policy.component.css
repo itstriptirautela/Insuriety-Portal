@@ -1,0 +1,41 @@
+.con{
+    background:linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+.container{
+    
+    height: 100em;background-size: cover;width: auto;
+    background-color: rgb(157, 200, 212);
+    background-position: 50% 50%;
+   
+}
+.cp {
+
+    width: 800px;
+
+    color:violet;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    font-family: sans-serif;
+
+    font-style: oblique;
+
+    margin: auto;
+
+    margin-bottom: 20px;
+
+    padding: 10px 0px 10px 0px;
+
+    border: solid;
+
+    font-size: x-large;
+
+    border-color: red;
+
+    border-radius: 15px 15px 0px 0px;
+
+    background-color: rgb(0,0,0,0.5);
+
+}
